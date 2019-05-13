@@ -1,0 +1,34 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#top {
+  margin-bottom: 5px;
+}
+
+table{
+  width: 100%;
+}
+
+#agenda {
+    width: 100%;
+  }
+   
+
+#agenda td {
+  padding: 4px;
+}
+#agenda input {
+  width: 99%
+}
+thead {
+  background-color: rgb(126, 126, 182)
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
