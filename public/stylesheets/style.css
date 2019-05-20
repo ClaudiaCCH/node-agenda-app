@@ -1,17 +1,23 @@
 body {
   padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: rgb(240, 233, 233);
 }
 
 a {
   color: #00B7FF;
 }
+header{
+  text-align: center;
+}
 #top {
   margin-bottom: 5px;
+  border-radius: 20px;
 }
 
 table{
   width: 100%;
+  border: 0;
 }
 
 #agenda {
@@ -21,12 +27,14 @@ table{
 
 #agenda td {
   padding: 4px;
+  
 }
 #agenda input {
   width: 99%
 }
 thead {
-  background-color: rgb(126, 126, 182)
+  background-color: rgb(163, 163, 168)
+  
 }
 
 tr:nth-child(even) {
